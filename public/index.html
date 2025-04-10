@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Battle Game</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Card Battle Game</h1>
+        <div id="player1">
+            <h2>Player 1</h2>
+            <div id="player1-cards"></div>
+            <div id="player1-hp">HP: 20</div>
+        </div>
+
+        <div id="deck">
+            <h3>Draw Pile</h3>
+            <button id="draw-card">Draw Card</button>
+        </div>
+
+        <div id="player2">
+            <h2>Player 2</h2>
+            <div id="player2-cards"></div>
+            <div id="player2-hp">HP: 20</div>
+        </div>
+
+        <div id="game-status"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/game.js"></script>
+</body>
+</html>
