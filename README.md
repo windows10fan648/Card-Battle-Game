@@ -85,5 +85,3 @@ This project is open source and available under the MIT License.
 5. **Roadmap**: Lists the features and improvements you plan to add.
 6. **Contributions**: Encourages others to contribute to the project.
 7. **License**: Indicates the license under which the project is shared.
-
-Feel free to modify or expand the README as your project grows!
